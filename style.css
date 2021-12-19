@@ -1,41 +1,67 @@
 body{
+    max-width: 900px;
     background: lightgrey;
 }
-#title, .subtitle, .post_title{
+#title, .subtitle, .post_title, .img_header_config, .post_img, .contact_list, .post_content{
     color: blue;
 
 }
+#title{
+    text-decoration: underline;
+}
+.img_header_config{
+    border-radius: 50%;
+    width: 150px;
+}
+.post_img{
 
+    border-radius: 20px ;
+    width: 100%;
+    align-items: baseline;
+}
 .post_title{
+    text-transform: uppercase;
 font-size: 16px;
 font-style: italic;
 }
 .post{
     background: white;
-    padding: 10px;
+    padding: 10px 5px 5px 0;
     border-top-color: black;
     border-top-width: 3px;
-    border-top-style: solid;
-    margin: 0px;
+    border-top-style: dotted;
+    margin: 3px;
 
     background: white;
     padding: 10px;
     border-left-color: black;
     border-left-width: 3px;
-    border-left-style: solid;
-    margin: 0px;
+    border-left-style: dotted;
+    margin: 3px;
     background: white;
 
     padding: 10px;
     border-bottom-color: black;
     border-bottom-width: 3px;
-    border-bottom-style: solid;
-    margin: 0px;
+    border-bottom-style: dotted;
+    margin: 15px;
 
     background: white;
     padding: 10px;
     border-right-color: black;
     border-right-width: 3px;
-    border-right-style: solid;
-    margin: 0px;
+    border-right-style: dotted;
+    margin: 3px;
+    text-transform: capitalize;
+    font-family: Verdana;
+    text-decoration: normal;   
+}
+.post_content{
+    text-align: center;
+    color: black;
+}
+.contact_list li a {
+    text-decoration: none;
+    list-style-type: none;
+    text-align: left;
 }
